@@ -34,6 +34,8 @@ public class DummyObjectCreator : MonoBehaviour
         foreach(GameObject go in dummyObjs)
         {
             Destroy(go);
+
+            DestroyImmediate(go);
         }
     }
 }
